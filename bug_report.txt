@@ -1,15 +1,19 @@
-Короткое описание (Summary)	Автор баг репорта (обычно это Тестировщик)
-Проект (Project)	Автор баг репорта (обычно это Тестировщик)
-Компонент приложения (Component)	Автор баг репорта (обычно это Тестировщик)
-Номер версии (Version)	Автор баг репорта (обычно это Тестировщик)
-Серьезность (Severity)	Автор баг репорта (обычно это Тестировщик), однако данный атрибут может быть изменен вышестоящим менеджером
-Приоритет (Priority)	Менеджер проекта или менеджер ответственный за разработку компонента, на который написан баг репорт
-Статус (Status)	Автор баг репорта (обычно это Тестировщик), но многие системы баг трекинга выставляют статус по умолчанию
-Автор (Author)	Устанавливается по умолчанию, если нет, то указывается имя автора баг репорта
-Назначен на (Assigned To)	Менеджер проекта или менеджер ответственный за разработку компонента, на который написан баг репорт
-ОС / Сервис Пак и т.д. / Браузера + версия / ...	Автор баг репорта (обычно это Тестировщик)
-Шаги воспроизведения (Steps to Reproduce)	Автор баг репорта (обычно это Тестировщик)
-Фактический Результат (Result)	Автор баг репорта (обычно это Тестировщик)
-Ожидаемый результат (Expected Result)	Автор баг репорта (обычно это Тестировщик)
-Прикрепленный файл (Attachment)
-l
+
+1) Bug_id: 1
+2) Project: application_1
+3) Title: invoice cannot be printed by the user
+4) Summary: invoice cannot be printed by the user in application_1 when the user presses 'Print' button on main panel
+5) Environment:
+5.1) Device: HomePC
+5.2) OS: Windows_10
+5.3) Version: 12SRE12
+6) Steps_to_reproduce:
+6.1) Open 'application_1'
+6.2) Press 'create_invoice' button
+6.3) Press 'print_invoice' button
+7) Attachment: video
+8) Actual_result: nothing happens when button is pressed
+9) Expected_result: invoice_printed
+10) Priority: critical
+11) Assignee: Igor
+12) Reporter: Igor
